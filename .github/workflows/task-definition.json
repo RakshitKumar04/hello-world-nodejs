@@ -1,0 +1,26 @@
+{
+    "family": "hello-world-task",
+    "networkMode": "awsvpc",
+    "requiresCompatibilities": [
+      "FARGATE"
+    ],
+    "cpu": "256",
+    "memory": "512",
+    "containerDefinitions": [
+      {
+        "name": "hello-world-container",
+        "image": "kumarrakshit0402/hello-world-nodejs:latest",
+        "cpu": 256,
+        "memory": 512,
+        "essential": true,
+        "portMappings": [
+          {
+            "containerPort": 3000,
+            "hostPort": 3000,
+            "protocol": "tcp"
+          }
+        ]
+      }
+    ]
+  }
+  
