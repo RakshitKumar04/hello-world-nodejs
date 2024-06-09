@@ -53,11 +53,13 @@ Before you begin, ensure you have the following installed:
     ```
 
 3. **Set Up Docker**
-
+   
+    [Docker Repo](https://hub.docker.com/repository/docker/kumarrakshit0402/hello-world-nodejs/general)
+   
     Log in to Docker Hub.
 
     ```sh
-    docker login
+    docker login 
     ```
 
 ## Terraform Configuration
