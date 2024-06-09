@@ -1,11 +1,5 @@
 {
   "family": "hello-world-task",
-  "networkMode": "awsvpc",
-  "requiresCompatibilities": [
-    "FARGATE"
-  ],
-  "cpu": "256",
-  "memory": "512",
   "containerDefinitions": [
     {
       "name": "hello-world-container",
@@ -21,5 +15,9 @@
         }
       ]
     }
-  ]
+  ],
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": ["FARGATE"],
+  "cpu": "256",
+  "memory": "512"
 }
