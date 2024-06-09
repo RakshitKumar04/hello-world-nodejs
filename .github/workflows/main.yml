@@ -13,14 +13,14 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v1
-
-      - name: Login to Docker Hub
-        run: echo "${{ secrets.DOCKER_HUB_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_HUB_USERNAME }}" --password-stdin
+      - name: Set up Docker
+        uses: actions/setup-docker@v1
 
       - name: Build Docker image
         run: docker build -t kumarrakshit0402/hello-world-nodejs:latest .
+
+      - name: Login to Docker Hub
+        run: echo "${{ secrets.DOCKER_HUB_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_HUB_USERNAME }}" --password-stdin
 
       - name: Push Docker image to Docker Hub
         run: docker push kumarrakshit0402/hello-world-nodejs:latest
@@ -31,3 +31,4 @@ jobs:
           task-definition: task-definition.json
           service: hello-world-service
           cluster: hello-world-cluster
+          region: us-east-1  
