@@ -285,6 +285,11 @@ Include relevant screenshots of your project setup, Terraform execution, Docker 
 
 ![GitHub action](https://github.com/RakshitKumar04/hello-world-nodejs/assets/72027411/d88a882e-9a21-4f0b-9b9a-3b537d200b4a)
 
+![ECS Deployment](https://github.com/RakshitKumar04/hello-world-nodejs/assets/72027411/788b7c03-6b5d-499c-97ee-162b75c8e0b6)
+
+![VPC](https://github.com/RakshitKumar04/hello-world-nodejs/assets/72027411/4a3eca4f-f099-4519-9170-1ef8d59ac439)
+
+
 
 ## Screencast
 
