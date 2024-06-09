@@ -29,6 +29,9 @@ jobs:
       - name: Configure AWS CLI
         run: aws configure set region us-east-1
 
+      - name: Set AWS_REGION environment variable
+        run: echo "AWS_REGION=us-east-1" >> $GITHUB_ENV
+
       - name: Deploy to ECS
         uses: aws-actions/amazon-ecs-deploy-task-definition@v1
         with:
