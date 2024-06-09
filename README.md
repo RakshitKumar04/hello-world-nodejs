@@ -24,7 +24,7 @@ The project architecture includes the following components:
 - **Terraform**: Manages the infrastructure on AWS.
 - **GitHub Actions**: Automates the CI/CD pipeline.
 
-![Architecture Diagram](path-to-architecture-diagram.png)
+![image](https://github.com/RakshitKumar04/hello-world-nodejs/assets/72027411/94585ce8-8ab9-477e-8c9c-78c7fddb2a1c)
 
 ## Prerequisites
 
@@ -41,8 +41,7 @@ Before you begin, ensure you have the following installed:
 1. **Clone the Repository**
 
     ```sh
-    git clone https://github.com/your-github-username/your-repo-name.git
-    cd your-repo-name
+    git clone git@github.com:RakshitKumar04/hello-world-nodejs.git
     ```
 
 2. **Set Up AWS CLI**
@@ -278,9 +277,12 @@ Before you begin, ensure you have the following installed:
 
 Include relevant screenshots of your project setup, Terraform execution, Docker image build and push, and GitHub Actions workflow run.
 
-![Terraform Init](path-to-terraform-init-screenshot.png)
-![Docker Build](path-to-docker-build-screenshot.png)
-![GitHub Actions Run](path-to-github-actions-run-screenshot.png)
+![Terraform Init](https://github.com/RakshitKumar04/hello-world-nodejs/assets/72027411/71eb1122-7b90-4e22-a3e5-47b42c875f76)
+
+![Docker Build](https://github.com/RakshitKumar04/hello-world-nodejs/assets/72027411/d7f85bb1-a374-480e-bcdf-d40858bdf1bc)
+
+![GitHub action](https://github.com/RakshitKumar04/hello-world-nodejs/assets/72027411/d88a882e-9a21-4f0b-9b9a-3b537d200b4a)
+
 
 ## Screencast
 
